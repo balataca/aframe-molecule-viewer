@@ -1,6 +1,9 @@
-# Molecule Viewer
+# AR Molecule Viewer
 
 This is a project that renders molecules in .pdb format for AR visualization. It also works on desktop thanks to AFRAME.
+
+## Demo
+https://molecule-viewer.glitch.me/
 
 ## Requirements for VR/AR
 
@@ -25,7 +28,6 @@ For `https` support use the [https-localhost](https://www.npmjs.com/package/http
 ```
 npm install -g https-localhost
 ```
-
 
 ## Usage
 Start the server:
