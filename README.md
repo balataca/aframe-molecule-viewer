@@ -2,6 +2,9 @@
 
 This is a project that renders molecules in .pdb format for AR visualization. It also works on desktop thanks to AFRAME.
 
+## Demo
+https://molecule-viewer.glitch.me/
+
 ## Requirements for VR/AR
 
 For VR:
