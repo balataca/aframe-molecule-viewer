@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ui__molecule-list {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+}
+
+.ui__molecule-list--hidden {
+  display: none;
+}
+
+.ui__molecule-list__close {
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #546e7a;
+  border: 0;
+}
+
+.ui__molecule {
+  cursor: pointer;
+  border: 0;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  padding: 1.2rem 5rem;
+  background-color: #ffffff;
+}
+
+.ui__molecule--active {
+  background-color: #007fff;
+  color: #ffffff;
+  font-weight: 700;
+} 
+
+.ui__actions {
+  display: flex;
+  position: fixed;
+  bottom: 4.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ui__actions__button {
+  cursor: pointer;
+  margin: 0 0.3rem;
+  background-color: #007fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 1.2rem;
+}
+
+.ui__actions__button:active, .ui__actions__button:hover {
+  background-color: #0059b2;
+}
+
+.ui__message {
+  position: fixed;
+  min-width: 200px;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1rem;
+  background-color: #007fff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ui__message--hidden {
+  display: none;
+}
