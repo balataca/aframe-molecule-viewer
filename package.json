@@ -1,0 +1,14 @@
+{
+  "name": "aframe-molecule-viewer",
+  "version": "1.0.0",
+  "description": "An AR molecule viewer built with aframe.",
+  "repository": "git@github.com:balataca/aframe-molecule-viewer.git",
+  "author": "Augusto Zanoni <augustorz@tutanota.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "PORT=8080 serve ./src"
+  },
+  "devDependencies": {
+    "https-localhost": "^4.7.1"
+  }
+}
