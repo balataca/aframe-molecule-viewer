@@ -17,22 +17,17 @@ For AR:
 * HTTPS support on the server.
 
 ## Installation
-You just need to serve this folder.
 
-You can use the [serve](https://www.npmjs.com/package/serve) library for this:
+Install dependencies:
 ```
-npm install -g serve
-```
-
-For `https` support use the [https-localhost](https://www.npmjs.com/package/https-localhost) library:
-```
-npm install -g https-localhost
+npm install
 ```
 
 ## Usage
 Start the server:
 ```
-serve
+npm start
 ```
+Open a browser and go to `https://localhost:8080`
 
-For entering AR mode on a smartphone your server must have `https` enabled.
+* For entering AR mode on a smartphone your server must have `https` enabled.
