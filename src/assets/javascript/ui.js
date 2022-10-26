@@ -28,7 +28,6 @@ const rotateXButton = document.getElementById('rotate-molecule-x');
 const rotateYButton = document.getElementById('rotate-molecule-y');
 
 const toggleAnimation = (component) => () => {
-  console.log(component)
   if (component.animationIsPlaying) {
     component.data.pauseEvents.forEach((event) => {
       component.el.emit(event) 
